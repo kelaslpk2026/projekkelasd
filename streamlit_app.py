@@ -3,6 +3,13 @@ import streamlit as st
 st.title("🎈 Projek Kelas D 2026")
 
 
+flex = st.container(horizontal=True, horizontal_alignment="right")
+
+for card in range(3):
+    flex.button(f"Button {card + 1}")
+
+
+
 st.markdown("*Streamlit* is **really** ***cool***.")
 st.markdown('''
     :red[Streamlit] :orange[can] :green[write] :blue[text] :violet[in]
